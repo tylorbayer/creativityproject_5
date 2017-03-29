@@ -24,7 +24,7 @@ $(document).ready(function(){
         com = data[comment];
         everything += "<iframe src=" + com.Name + "></iframe><br>";
       }
-      $("#comments").html(everything);
+      $("#our_comments").html(everything);
     })
   });
 

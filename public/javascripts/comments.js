@@ -26,5 +26,16 @@ $(document).ready(function(){
       }
       $("#comments").html(everything);
     })
+  });
+  
+  $("#deleteComments").click(function() {
+  console.log('delete buttom clicked');
+  var url = "comment";
+  $.ajax({
+    url:url,
+    type: "DELETE",
+    success: function(data,textStatus) {
+    }
   })
+});
 });

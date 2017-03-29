@@ -19,24 +19,12 @@ $(document).ready(function(){
   $("#getComments").click(function() {
     $.getJSON('comment', function(data) {
       console.log(data);
-      var everything = "<ul>";
+      var everything;
       for(var comment in data) {
         com = data[comment];
-        everything += "<li> Name: " + com.Name + " -- Comment: " + com.Comment + "</li>";
+        everything += "<iframe src=" + com.Name + "></iframe>";
       }
-      everything += "</ul>";
       $("#comments").html(everything);
     })
   })
-
-$("#deleteComments").click(function() {
-  console.log('delete buttom clicked');
-  var url = "comment";
-  $.ajax({
-    url:url,
-    type: "DELETE",
-    success: function(data,textStatus) {
-    }
-  })
-});
 });

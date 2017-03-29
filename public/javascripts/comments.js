@@ -19,7 +19,7 @@ $(document).ready(function(){
   $("#getComments").click(function() {
     $.getJSON('comment', function(data) {
       console.log(data);
-      var everything;
+      var everything = '';
       for(var comment in data) {
         com = data[comment];
         everything += "<iframe src=" + com.Name + "></iframe>";
@@ -27,7 +27,7 @@ $(document).ready(function(){
       $("#comments").html(everything);
     })
   });
-  
+
   $("#deleteComments").click(function() {
   console.log('delete buttom clicked');
   var url = "comment";

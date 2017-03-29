@@ -1,0 +1,175 @@
+
+> comments@0.0.0 start /home/bitnami/CS201/lab-5-mongo-tylorbayer
+> node ./bin/www
+
+/home/bitnami/CS201/lab-5-mongo-tylorbayer/routes/index.js:1
+(function (exports, require, module, __filename, __dirname) { router.post('/comment', function(req, res, next) {
+                                                              ^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/home/bitnami/CS201/lab-5-mongo-tylorbayer/routes/index.js:1:63)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/bitnami/CS201/lab-5-mongo-tylorbayer/app.js:8:14)
+    at Module._compile (module.js:570:32)
+
+npm ERR! Linux 3.13.0-101-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! comments@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the comments@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the comments package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs comments
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls comments
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/CS201/lab-5-mongo-tylorbayer/npm-debug.log
+
+> comments@0.0.0 start /home/bitnami/CS201/lab-5-mongo-tylorbayer
+> node ./bin/www
+
+/home/bitnami/CS201/lab-5-mongo-tylorbayer/routes/index.js:1
+(function (exports, require, module, __filename, __dirname) { router.post('/comment', function(req, res, next) {
+                                                              ^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/home/bitnami/CS201/lab-5-mongo-tylorbayer/routes/index.js:1:63)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/bitnami/CS201/lab-5-mongo-tylorbayer/app.js:8:14)
+    at Module._compile (module.js:570:32)
+
+npm ERR! Linux 3.13.0-101-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! comments@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the comments@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the comments package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs comments
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls comments
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/CS201/lab-5-mongo-tylorbayer/npm-debug.log
+
+> comments@0.0.0 start /home/bitnami/CS201/lab-5-mongo-tylorbayer
+> node ./bin/www
+
+/home/bitnami/CS201/lab-5-mongo-tylorbayer/routes/index.js:1
+(function (exports, require, module, __filename, __dirname) { router.post('/comment', function(req, res, next) {
+                                                              ^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/home/bitnami/CS201/lab-5-mongo-tylorbayer/routes/index.js:1:63)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/bitnami/CS201/lab-5-mongo-tylorbayer/app.js:8:14)
+    at Module._compile (module.js:570:32)
+
+npm ERR! Linux 3.13.0-101-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! comments@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the comments@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the comments package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs comments
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls comments
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/CS201/lab-5-mongo-tylorbayer/npm-debug.log
+
+> comments@0.0.0 start /home/bitnami/CS201/lab-5-mongo-tylorbayer
+> node ./bin/www
+
+[0mGET / [36m304 [0m8.034 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.440 ms - -[0m
+POST comment route
+[0mPOST /comment [32m200 [0m33.182 ms - 2[0m
+[0mGET / [36m304 [0m1.244 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m2.306 ms - -[0m
+[0mGET / [36m304 [0m0.334 ms - -[0m
+[0mGET /javascripts/comments.js [32m200 [0m3.299 ms - 437[0m
+POST comment route
+[0mPOST /comment [32m200 [0m1.646 ms - 2[0m
+[0mGET / [36m304 [0m0.400 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.237 ms - -[0m
+POST comment route
+[0mPOST /comment [32m200 [0m0.611 ms - 2[0m
+POST comment route
+[0mPOST /comment [32m200 [0m0.706 ms - 2[0m
+POST comment route
+[0mPOST /comment [32m200 [0m1.487 ms - 2[0m
+POST comment route
+[0mPOST /comment [32m200 [0m2.123 ms - 2[0m
+[0mGET / [36m304 [0m0.619 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.228 ms - -[0m
+POST comment route
+[0mPOST /comment [32m200 [0m0.953 ms - 2[0m
+[0mGET / [36m304 [0m1.712 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.226 ms - -[0m
+POST comment route
+[0mPOST /comment [32m200 [0m48.047 ms - 2[0m
+POST comment route
+[0mPOST /comment [32m200 [0m0.714 ms - 2[0m
+[0mGET / [36m304 [0m0.337 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.207 ms - -[0m
+[0mGET / [36m304 [0m0.309 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.203 ms - -[0m
+POST comment route
+[0mPOST /comment [32m200 [0m0.979 ms - 2[0m
+[0mGET /comment [33m404 [0m8.971 ms - 1116[0m
+[0mGET /comment [33m404 [0m1.880 ms - 1116[0m
+[0mGET / [36m304 [0m0.356 ms - -[0m
+[0mGET /javascripts/comments.js [32m200 [0m2.998 ms - 815[0m
+POST comment route
+[0mPOST /comment [32m200 [0m0.611 ms - 2[0m
+[0mGET /comment [33m404 [0m0.970 ms - 1116[0m
+[0mGET /comment [33m404 [0m1.579 ms - 1116[0m
+[0mGET /comment [33m404 [0m0.703 ms - 1116[0m

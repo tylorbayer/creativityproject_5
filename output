@@ -1,0 +1,122 @@
+nohup: ignoring input
+Connected
+[0mGET / [32m200 [0m15.963 ms - 638[0m
+[0mGET /javascripts/comments.js [36m304 [0m9.588 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m21.624 ms - 1795[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.229 ms - -[0m
+In the GET route?
+[ { _id: 58dc27b772798c649a74d536,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27b972798c649a74d537,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m24.118 ms - -[0m
+POST comment route
+{ Name: 'Tylor', Comment: 'Hey' }
+{ Name: 'Tylor', Comment: 'Hey', _id: 58dc27d7b9ca8b64a9dbf6ac }
+(node:25769) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+{ __v: 0,
+  Name: 'Tylor',
+  Comment: 'Hey',
+  _id: 58dc27d7b9ca8b64a9dbf6ac }
+[0mPOST /comment [32m200 [0m46.669 ms - 2[0m
+In the GET route?
+[ { _id: 58dc27b772798c649a74d536,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27b972798c649a74d537,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27d7b9ca8b64a9dbf6ac,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 } ]
+[0mGET /comment [32m200 [0m9.073 ms - 227[0m
+In the GET route?
+[ { _id: 58dc27b772798c649a74d536,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27b972798c649a74d537,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27d7b9ca8b64a9dbf6ac,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m3.290 ms - -[0m
+In the GET route?
+[ { _id: 58dc27b772798c649a74d536,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27b972798c649a74d537,
+    Name: 'Tylor',
+    Comment: 'Bayer',
+    __v: 0 },
+  { _id: 58dc27d7b9ca8b64a9dbf6ac,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m2.703 ms - -[0m
+delete try
+[0mDELETE /comment [32m200 [0m5.170 ms - 2[0m
+In the GET route?
+[]
+[0mGET /comment [32m200 [0m11.815 ms - 2[0m
+POST comment route
+{ Name: 'Tylor', Comment: 'Hey' }
+{ Name: 'Tylor', Comment: 'Hey', _id: 58dc27dcb9ca8b64a9dbf6ad }
+{ __v: 0,
+  Name: 'Tylor',
+  Comment: 'Hey',
+  _id: 58dc27dcb9ca8b64a9dbf6ad }
+[0mPOST /comment [32m200 [0m7.037 ms - 2[0m
+POST comment route
+{ Name: 'Tylor', Comment: 'Hey' }
+{ Name: 'Tylor', Comment: 'Hey', _id: 58dc27ddb9ca8b64a9dbf6ae }
+{ __v: 0,
+  Name: 'Tylor',
+  Comment: 'Hey',
+  _id: 58dc27ddb9ca8b64a9dbf6ae }
+[0mPOST /comment [32m200 [0m3.671 ms - 2[0m
+POST comment route
+{ Name: 'Tylor', Comment: 'Hey' }
+{ Name: 'Tylor', Comment: 'Hey', _id: 58dc27ddb9ca8b64a9dbf6af }
+{ __v: 0,
+  Name: 'Tylor',
+  Comment: 'Hey',
+  _id: 58dc27ddb9ca8b64a9dbf6af }
+[0mPOST /comment [32m200 [0m1.987 ms - 2[0m
+POST comment route
+{ Name: 'Tylor', Comment: 'Hey' }
+{ Name: 'Tylor', Comment: 'Hey', _id: 58dc27ddb9ca8b64a9dbf6b0 }
+{ __v: 0,
+  Name: 'Tylor',
+  Comment: 'Hey',
+  _id: 58dc27ddb9ca8b64a9dbf6b0 }
+[0mPOST /comment [32m200 [0m2.461 ms - 2[0m
+In the GET route?
+[ { _id: 58dc27dcb9ca8b64a9dbf6ad,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 },
+  { _id: 58dc27ddb9ca8b64a9dbf6ae,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 },
+  { _id: 58dc27ddb9ca8b64a9dbf6af,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 },
+  { _id: 58dc27ddb9ca8b64a9dbf6b0,
+    Name: 'Tylor',
+    Comment: 'Hey',
+    __v: 0 } ]
+[0mGET /comment [32m200 [0m4.807 ms - 297[0m

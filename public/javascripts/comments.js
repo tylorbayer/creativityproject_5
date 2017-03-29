@@ -22,7 +22,7 @@ $(document).ready(function(){
       var everything = '';
       for(var comment in data) {
         com = data[comment];
-        everything += "<iframe src=" + com.Name + "></iframe>";
+        everything += "<iframe src=" + com.Name + "></iframe><br>";
       }
       $("#comments").html(everything);
     })

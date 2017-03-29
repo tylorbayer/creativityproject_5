@@ -14,16 +14,6 @@ $(document).ready(function(){
           $("#done").html(textStatus);
       }
     })
-    $.getJSON('comment', function(data) {
-      console.log(data);
-      var everything;
-      for(var comment in data) {
-        com = data[comment];
-        everything += "<iframe src=" + com.Name + "></iframe>";
-      }
-      $("#comments").html(everything);
-    })
-  })
   });
 
   $("#getComments").click(function() {

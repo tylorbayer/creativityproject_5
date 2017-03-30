@@ -1,4 +1,4 @@
-#our_omments {
+#comments {
   display: flex;
   flex-direction: column;
 }
@@ -14,4 +14,3 @@ iframe {
 #url-box {
   color: black;
 }
-
